@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Abhi',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -27,13 +27,13 @@ const CONFIG = {
 
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '33.180302',
+	defaultLongitude: '-96.495758',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,8 +53,8 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
+			name: 'ATT Sharepoint',
+			icon: 'glasses',
 			link: 'https://github.com/',
 		},
 		{
@@ -65,7 +65,7 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Jira',
 			icon: 'trello',
 			link: 'https://todoist.com',
 		},
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Linkedin',
+			icon: 'linkedin',
+			link: 'https://linkedin.com/',
 		},
 	],
 
@@ -135,23 +135,23 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'terminal-square',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
+					name: 'AWS',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Classic',
+					name: 'Vortex DEV',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Oldies',
+					name: 'Vortex TEST',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Rock',
+					name: 'AOD',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 			],
@@ -161,19 +161,19 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
+					name: 'Elink',
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
+					name: 'Infor',
 					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'MOOSE',
+					link: 'https://www.spotify.com',
 				},
 				{
-					name: 'Slack',
+					name: 'Quantum',
 					link: 'https://www.slack.com',
 				},
 			],
